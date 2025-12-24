@@ -49,14 +49,3 @@ button {
 button:hover {
     background: #3c6ec0;
 }
-
-.log-area {
-    height: 150px;
-    overflow-y: auto;
-    border: 1px solid #ddd;
-    padding: 5px;
-}
-
-canvas {
-    border: 1px solid #ccc;
-}
