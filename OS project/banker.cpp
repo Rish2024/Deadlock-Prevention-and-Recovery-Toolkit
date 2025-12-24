@@ -85,4 +85,16 @@ int main() {
         }
     }
 
-   
+    if (safe) {
+        cout << "System is in SAFE state.\nSafe sequence: ";
+        for (int i = 0; i < n; i++)
+            cout << "P" << safeSeq[i] << (i == n - 1 ? "\n" : " -> ");
+    } else {
+        cout << "System is in UNSAFE state (no safe sequence).\n";
+    }
+
+    return 0;
+}
+
+
+
